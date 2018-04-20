@@ -37,7 +37,7 @@ public class ChatManager {
 			@Override
 			public void run() {
 				try {
-					socket = new Socket(IP, 12345);
+					socket = new Socket(IP, 15882);
 					writer = new PrintWriter(
 							new OutputStreamWriter(
 									socket.getOutputStream()));
